@@ -13,7 +13,9 @@ int main(void)
 	{
 		putchar('0' + num);
 		putchar((num != 9) ? ',' : '\n');
-		putchar((num != 9) ? ' ' : '\0');
+
+		if (num != 9)
+		putchar(' ');
 	}
 
 	return (0);
