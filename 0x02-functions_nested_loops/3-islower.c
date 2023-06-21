@@ -2,18 +2,14 @@
 
 /**
 *_islower - checks for lowercase characters
-*@c - the parameter to be checke
-*Return - 1 if true else 0
+*@c: - the parameter to be checked
+*Return - 1 if lowercase otherwise 0
 */
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z') 
-	{
+	if (c >= 'a' && c <= 'z')
 		return (1);
-	}
-	else 
-	{
+	else
 		return (0);
-	}
 }
