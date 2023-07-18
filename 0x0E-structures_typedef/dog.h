@@ -9,7 +9,7 @@
  *@name: dog name
  *@age: dog age
  *@owner: the owner of the dog
- *@typedef: typedef struct for dog
+ *type - Typedef for dog struct
  */
 
 typedef struct dog
