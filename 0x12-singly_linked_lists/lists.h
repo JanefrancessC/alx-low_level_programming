@@ -8,6 +8,7 @@
  *@str: string
  *@len: length of the string
  *@next: next node
+ *
  *Description: singly linked list structure
  */
 
